@@ -1,0 +1,129 @@
+@media (max-width:510px) {
+    .ad-app-text {
+        font-size: 13px;
+    }
+}
+@media (max-width:350px) {
+    .alert .ad-app-text {
+        font-size: 13px;
+    }
+}
+@media (max-width:290px) {
+    .alert .ad-app-text {
+        font-size: 11px;
+    }
+}
+@media (max-width:577px) {
+    .ad-app-btn {
+        margin-top: 12px;
+        width: 100%;
+    }
+}
+@media (max-width:780px) {
+    .cont .search{
+        width: 100%;
+    }
+    .cont2 .sorts .sort:nth-child(2) {
+        margin: 0 0 0 10px;
+    }
+    .cont2 .sorts .sort:nth-child(3) {
+        margin: 0 10px;
+    }
+}
+@media (max-width:280px) {
+    .sec2 .cont2 .sorts  {
+        width: 100%;
+    }
+    .navbar .navbar-brand img{
+        height: 25px;
+    }
+    .navbar .navbar-brand p{
+        font-size: 20px;
+    }
+}
+@media (max-width:350px) {
+    .sec1 .cont .h3{
+        font-size: 21px;
+    }
+    .sec1 .cont .search input{
+        padding: 7px 0px 7px 20px;
+        width: 100%;
+    }
+    .sec1 .cont .search input::placeholder{
+        font-size: 15px;
+    }
+    .search .btn{
+        width: 30%;
+    }
+}
+@media (max-width:580px) {
+    .sec2 .cont2 .sorts {
+        width: 200px;
+    }
+    .sec2 .cont2 .sorts .sort{
+        font-size: 13px;
+    }
+}
+@media (max-width:495px) {
+    .sec2 .cont2 .sorts {
+        /* justify-content:unset; */
+        flex-direction: column;
+        gap: 15px;
+        /* display: inline-block; */
+        /* display: block; */
+    }
+    .sec2 .cont2 .sorts .sort{
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        /* width: 50%; */
+        /* height: 50%; */
+    }
+}
+@media (max-width:390px) {
+    .sec2 {
+        padding:40px 5px ;
+    }
+    .sec2 .cont2 .prods .prod {
+        width: 100%;
+        transform: scale(0.9);
+    }
+    .sec2 .cont2 .prods {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+        .cont2 .prod .descrip .h5{
+        font-size: 15px;
+    }
+    .sec2 .cont2 .prods .prod .sizes .size{
+        font-size: 15px;
+    }
+    .cont2 .prod .des-text{
+        font-size: 13px;
+    }
+}
+@media (max-width:340px) {
+    .sec2 .cont2 .prods .prod .sizes .size{
+        font-size: 12px;
+    }
+    .sec2 {
+        padding:40px 0;
+    }
+    .sec2 .cont2 .prods .prod {
+        width: 100%;
+        transform: scale(0.8);
+    }
+    .cont2 .prod .descrip .h5{
+        font-size: 15px;
+    }
+    .cont2 .prod .des-text{
+        font-size: 13px;
+    }
+}
+@media (min-width: 768px) {
+    .cont2 .sorts .sort:nth-child(2) {
+        margin: 0 0 0 10px ;
+    }
+    .cont2 .sorts .sort:nth-child(3) {
+        margin: 0 10px ;
+    }
+}

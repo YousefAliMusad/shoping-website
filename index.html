@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="medaiquery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<body class="bg-light">
+    <div class="alert mb-0 w-100 text-light d-flex align-items-center justify-content-sm-between flex-column flex-sm-row" style="border-radius: 0; background-color: rgb(60, 60, 75);">
+        <p class="btn ad-app-text m-0 pl-sm-0">Download shopea in Android or Iphone </p>
+        <a href="#" class="ad-app-btn btn btn-success pl-4 pr-4">Download</a>
+    </div>
+    <div class="navbar navbar-expand-lg navbar-light pt-lg-0 pb-3 pb-lg-0 position-sticky sticky-top d-flex justify-content-between flex-lg-row "  style="background-color: white;">
+        <div class="navbar-brand d-flex flex-row align-items-center ">
+            <img src="image/logo.png" class="mr-2 ml-lg-5" height="30">
+            <p class="text-dark h3 m-0">shopea</p>
+        </div>
+        <a href="#navga" class="navbar-toggler border-0" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </a>
+        <div id="navga" class="collapse mr-lg-5 navbar-collapse justify-content-end">
+            <ul class="navbar-nav p-0 ">
+                <div class="dropdown-divider p-0"></div>
+                <li class="nav-item text-left p-md-3 p-sm-3 p-3"><a href="#s1" class="nav-link text-dark">Home</a></li>
+                <li class="nav-item text-left p-md-3 p-sm-3 p-3"><a href="#s2" class="nav-link text-dark">Products</a></li>
+                <li class="nav-item text-left p-md-3 p-sm-3 p-3"><a href="#s3" class="nav-link text-dark">Offers</a></li>
+                <li class="nav-item text-left p-md-3 p-sm-3 p-3">
+                    <div class="dropdown">
+                        <div class="btn dropdown-toggle pl-0" data-toggle="dropdown">
+                            <i class="fa-solid fa-earth-europe"></i>
+                            <span class="ml-1">Languages </span>
+                        </div>
+                        <div class="dropdown-menu p-0 mr-md-5 mt-lg-4 w-100">
+                            <div class="dropdown-item p-3">
+                                <img src="image/saudi.jpg" height="15" class="mr-2">
+                                Arabic
+                            </div>
+                                <div class="dropdown-item p-3">
+                                    <img src="image/french.png" height="15" class="mr-2">
+                                    French
+                                </div>
+                            <div class="dropdown-item p-3">
+                                <img src="image/spinch.png" height="15" class="mr-2">
+                                Spanish
+                            </div>
+                            <div class="dropdown-item p-3">
+                                <img src="image/italin.png" height="15" class="mr-2">
+                                Italian
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="sec1" id="s1">
+        <div class="cont d-flex align-items-center justify-content-center h-100 flex-column">
+            <h1 class="text-center mb-4 text-light" style="font-size: 50px;">Shop now</h1>
+            <div class="h3 mb-5 text-capitalize text-light text-center">shopea is a online shop easy using select puy order </div>
+            <div class="search p-0">
+                <input type="text" id="search" placeholder="Search For Any Product">
+                <label for="#search" class="btn m-0 btn-success">Search</label>
+            </div>
+        </div>
+    </div>
+    <div class="sec2 d-flex align-items-center flex-column" id="s2">
+        <div class="h1 mt-1 fa-title d-flex align-items-center justify-content-center" style="height: 50px;">
+            <div class="title">Products</div>
+        </div>
+        <div class="cont2 mt-5 d-flex flex-column">
+            <div class="sorts align-self-center m-0 d-flex align-items-center justify-content-around">
+                <div class="sort border border-primary pl-4 pr-4 pt-2 pb-2 active-sort" style="border-radius: 30px;" >All</div>
+                <div class="sort border border-primary pl-4 pr-4 pt-2 pb-2" style="border-radius: 30px;" >Clothes</div>
+                <div class="sort border border-primary pl-4 pr-4 pt-2 pb-2" style="border-radius: 30px;" >Electronics</div>
+                <div class="sort border border-primary pl-4 pr-4 pt-2 pb-2" style="border-radius: 30px;" >Accessories</div>
+            </div>
+            <div class="prods mt-5"></div>
+        </div>
+    </div>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
