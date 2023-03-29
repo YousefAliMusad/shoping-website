@@ -6,8 +6,7 @@ req.onreadystatechange = function() {
     if(this.status === 200 && this.readyState === 4) {
         let product = JSON.parse(this.responseText)
         let productLength = product.length
-        console.log(productLength)
-        createProduct(product , productLength )
+        createProduct(product , productLength)
     }
 }
 
@@ -18,15 +17,15 @@ function createProduct(item , itemLength ) {
     for(let i = 0; i <= itemLength ; i++) {
         // create product structure
         let productItem = document.createElement("div")
-        productItem.className = "prod p-3"
-
+        productItem.className = `prod p-3 ${item[i]["product-type"]}`
+        // productItem.dataset.type = item[i]["product-type"]
+        // productItem.dataset.all = item[i]["product-all"]
         // create image
         let imageContent = document.createElement("div")
         imageContent.className = "image w-100 d-flex justify-content-center pt-1 pb-3"
         let image = document.createElement("img")
         image.src = item[i]["product-image"]
         image.style.width = `${item[i]["product-width"]}`
-
         // create description
         let description = document.createElement("div")
         description.className = "descrip mt-2";
@@ -95,14 +94,54 @@ function createProduct(item , itemLength ) {
         productItem.appendChild(btns)
         btns.appendChild(btn1)
         btns.appendChild(btn2)
+        console.log(productItem.dataset.type)
     }
 }
 sorts.forEach((e)=>{
+    for (let i = 0 ; i <= 3 ; i++) {
+        let b1 = sorts[0];
+        let b2 = sorts[1];
+        let b3 = sorts[2];
+        let b4 = sorts[3];
+    
+        b1.onclick = function() {
+            let pros = document.querySelectorAll(".prods .prod");
+            pros.forEach((ele)=>{
+                ele.style.cssText = "display:block"
+            })
+        }
+        b2.onclick = function() {
+            let pros = document.querySelectorAll(".prods .prod");
+            pros.forEach((ele)=>{
+                ele.style.cssText = "display:none"
+                document.querySelectorAll(".clothes").forEach((cloth)=>{
+                    cloth.style.cssText = "display:block"
+                })
+            })
+        }
+        b3.onclick = function() {
+            let pros = document.querySelectorAll(".prods .prod");
+            pros.forEach((ele)=>{
+                ele.style.cssText = "display:none"
+                document.querySelectorAll(".electronics").forEach((cloth)=>{
+                    cloth.style.cssText = "display:block"
+                })
+            })
+        }
+        b4.onclick = function() {
+            let pros = document.querySelectorAll(".prods .prod");
+            pros.forEach((ele)=>{
+                ele.style.cssText = "display:none"
+                document.querySelectorAll(".accessories").forEach((cloth)=>{
+                    cloth.style.cssText = "display:block"
+                })
+            })
+        }
+    }
     e.addEventListener("click", function() {
         for (let i = 0 ; i <= 3 ; i++) {
             let thing = sorts[i]
             thing.className = "sort border border-primary pl-4 pr-4 pt-2 pb-2"
-        //    console.log(sorts[i])
         }
         e.className = "sort border border-primary pl-4 pr-4 pt-2 pb-2 active-sort"
     })

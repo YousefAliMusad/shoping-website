@@ -4,69 +4,147 @@
         "product-name":"black adidis",
         "product-price":"22.99 $",
         "product-description":"men's running T - shirt",
-        "product-width":"150px"
+        "product-width":"150px",
+        "product-type" : "clothes",
+        "product-all" : "all"
     },
     {
-        "product-image":"image/shirt1.png",
-        "product-name":"black adidis",
+        "product-image":"image/shirt2.png",
+        "product-name":"dark red adidis",
         "product-price":"22.99 $",
         "product-description":"men's running T - shirt",
-        "product-width":"150px"
+        "product-width":"150px",
+        "product-type" : "clothes",
+        "product-all" : "all"
     },
     {
-        "product-image":"image/shirt1.png",
-        "product-name":"black adidis",
+        "product-image":"image/shirt3.png",
+        "product-name":"sport adidis",
         "product-price":"22.99 $",
         "product-description":"men's running T - shirt",
-        "product-width":"150px"
+        "product-width":"150px",
+        "product-type" : "clothes",
+        "product-all" : "all"
     },
     {
-        "product-image":"image/shirt1.png",
-        "product-name":"black adidis",
+        "product-image":"image/shirt4.png",
+        "product-name":"adidis logo",
         "product-price":"22.99 $",
         "product-description":"men's running T - shirt",
-        "product-width":"150px"
+        "product-width":"150px",
+        "product-type" : "clothes",
+        "product-all" : "all"
     },
     {
-        "product-image":"image/shirt1.png",
-        "product-name":"black adidis",
+        "product-image":"image/shirt5.png",
+        "product-name":"red adidis",
         "product-price":"22.99 $",
         "product-description":"men's running T - shirt",
-        "product-width":"150px"
+        "product-width":"150px",
+        "product-type" : "clothes",
+        "product-all" : "all"
     },
     {
-        "product-image":"image/shirt1.png",
-        "product-name":"black adidis",
+        "product-image":"image/w1.png",
+        "product-name":"black watch",
         "product-price":"22.99 $",
         "product-description":"men's running T - shirt",
-        "product-width":"150px"
+        "product-width":"100px",
+        "product-type" : "accessories",
+        "product-all" : "all"
     },
     {
-        "product-image":"image/shirt1.png",
-        "product-name":"black adidis",
+        "product-image":"image/w2.png",
+        "product-name":"green watch",
         "product-price":"22.99 $",
         "product-description":"men's running T - shirt",
-        "product-width":"150px"
+        "product-width":"100px",
+        "product-type" : "accessories",
+        "product-all" : "all"
     },
     {
-        "product-image":"image/shirt1.png",
-        "product-name":"black adidis",
+        "product-image":"image/w3.png",
+        "product-name":"pink watch",
         "product-price":"22.99 $",
         "product-description":"men's running T - shirt",
-        "product-width":"150px"
+        "product-width":"100px",
+        "product-type" : "accessories",
+        "product-all" : "all"
     },
     {
-        "product-image":"image/shirt1.png",
-        "product-name":"black adidis",
+        "product-image":"image/w4.png",
+        "product-name":"plue watch",
         "product-price":"22.99 $",
         "product-description":"men's running T - shirt",
-        "product-width":"150px"
+        "product-width":"100px",
+        "product-type" : "accessories",
+        "product-all" : "all"
     },
     {
-        "product-image":"image/shirt1.png",
-        "product-name":"black adidis",
+        "product-image":"image/w5.png",
+        "product-name":"white watch",
         "product-price":"22.99 $",
         "product-description":"men's running T - shirt",
-        "product-width":"150px"
+        "product-width":"100px",
+        "product-type" : "accessories",
+        "product-all" : "all"
+    }
+    
+
+    ,
+    {
+        "product-image":"image/earphone.png",
+        "product-name":"black watch",
+        "product-price":"22.99 $",
+        "product-description":"men's running T - shirt",
+        "product-width":"180px",
+        "product-type" : "electronics",
+        "product-all" : "all"
+    },
+    {
+        "product-image":"image/earphone.png",
+        "product-name":"green watch",
+        "product-price":"22.99 $",
+        "product-description":"men's running T - shirt",
+        "product-width":"180px",
+        "product-type" : "electronics",
+        "product-all" : "all"
+    },
+    {
+        "product-image":"image/earphone.png",
+        "product-name":"pink watch",
+        "product-price":"22.99 $",
+        "product-description":"men's running T - shirt",
+        "product-width":"180px",
+        "product-type" : "electronics",
+        "product-all" : "all"
+    },
+        {
+        "product-image":"image/iphone2.png",
+        "product-name":"plue watch",
+        "product-price":"22.99 $",
+        "product-description":"men's running T - shirt",
+        "product-width":"125px",
+        "product-type" : "electronics",
+        "product-all" : "all"
+    },
+    {
+        "product-image":"image/iphone2.png",
+        "product-name":"white watch",
+        "product-price":"22.99 $",
+        "product-description":"men's running T - shirt",
+        "product-width":"125px",
+        "product-type" : "electronics",
+        "product-all" : "all"
+    }
+    ,
+        {
+        "product-image":"image/iphone2.png",
+        "product-name":"plue watch",
+        "product-price":"22.99 $",
+        "product-description":"men's running T - shirt",
+        "product-width":"125px",
+        "product-type" : "electronics",
+        "product-all" : "all"
     }
 ]
