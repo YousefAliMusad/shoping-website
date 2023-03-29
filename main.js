@@ -146,3 +146,5 @@ sorts.forEach((e)=>{
         e.className = "sort border border-primary pl-4 pr-4 pt-2 pb-2 active-sort"
     })
 })
+let date = new Date().getFullYear();
+document.querySelector(".foot span").innerHTML = date

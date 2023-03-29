@@ -127,3 +127,11 @@
         margin: 0 10px ;
     }
 }
+@media (max-width:600px) {
+    .sec3  {
+        padding: 40px 0;
+    }
+    .sec3 .cont3 form {
+        width: 100%;
+    }
+}
