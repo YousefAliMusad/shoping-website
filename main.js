@@ -1,8 +1,8 @@
 let sorts = document.querySelectorAll(".sort");
 let ProductContainer = document.querySelector(".prods")
-let req = new XMLHttpRequest();
+let request = new XMLHttpRequest();
 
-req.onreadystatechange = function() {
+request.onreadystatechange = function() {
     if(this.status === 200 && this.readyState === 4) {
         let product = JSON.parse(this.responseText)
         let productLength = product.length
@@ -10,16 +10,14 @@ req.onreadystatechange = function() {
     }
 }
 
-req.open("GET" , "products.json" , true)
-req.send()
+request.open("GET" , "products.json" , true)
+request.send()
 
 function createProduct(item , itemLength ) {
     for(let i = 0; i <= itemLength ; i++) {
         // create product structure
         let productItem = document.createElement("div")
         productItem.className = `prod p-3 ${item[i]["product-type"]}`
-        // productItem.dataset.type = item[i]["product-type"]
-        // productItem.dataset.all = item[i]["product-all"]
         // create image
         let imageContent = document.createElement("div")
         imageContent.className = "image w-100 d-flex justify-content-center pt-1 pb-3"
@@ -94,7 +92,6 @@ function createProduct(item , itemLength ) {
         productItem.appendChild(btns)
         btns.appendChild(btn1)
         btns.appendChild(btn2)
-        console.log(productItem.dataset.type)
     }
 }
 sorts.forEach((e)=>{
@@ -148,3 +145,4 @@ sorts.forEach((e)=>{
 })
 let date = new Date().getFullYear();
 document.querySelector(".foot span").innerHTML = date
+console.log = function () {};
