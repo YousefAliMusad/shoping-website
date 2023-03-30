@@ -43,14 +43,14 @@
 }
 @media (max-width:350px) {
     .sec1 .cont .h3{
-        font-size: 21px;
+        font-size: 19px;
     }
     .sec1 .cont .search input{
         padding: 7px 0px 7px 20px;
-        width: 100%;
+        width: 90%;
     }
     .sec1 .cont .search input::placeholder{
-        font-size: 15px;
+        font-size: 12px;
     }
     .search .btn{
         width: 30%;
