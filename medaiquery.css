@@ -21,7 +21,7 @@
 }
 @media (max-width:780px) {
     .cont .search{
-        width: 100%;
+        width: 90%;
     }
     .cont2 .sorts .sort:nth-child(2) {
         margin: 0 0 0 10px;
@@ -66,18 +66,13 @@
 }
 @media (max-width:495px) {
     .sec2 .cont2 .sorts {
-        /* justify-content:unset; */
         flex-direction: column;
         gap: 15px;
-        /* display: inline-block; */
-        /* display: block; */
     }
     .sec2 .cont2 .sorts .sort{
         margin: 0;
         width: 100%;
         text-align: center;
-        /* width: 50%; */
-        /* height: 50%; */
     }
 }
 @media (max-width:390px) {
