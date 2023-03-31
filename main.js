@@ -66,7 +66,7 @@ function createProduct(item , itemLength ) {
         btns.className = "btns d-flex flex-row"
         let btn1 = document.createElement("div")
         btn1.className = "btn btn-primary mr-2 w-100 text-uppercase"
-        btn1.innerText = "puy now"
+        btn1.innerText = "buy now"
         btn1.style.cssText = "border-radius:0"
         let btn2 = document.createElement("div")
         btn2.className = "btn btn-primary mr-2 w-100 text-uppercase"
