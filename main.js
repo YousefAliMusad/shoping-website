@@ -10,7 +10,7 @@ request.onreadystatechange = function() {
     }
 }
 
-request.open("GET" , "products.json" , true)
+request.open("GET" , "db.json" , true)
 request.send()
 
 function createProduct(item , itemLength ) {
